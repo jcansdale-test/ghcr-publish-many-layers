@@ -19,7 +19,38 @@ jobs:
       - name: Create a Dockerfile
         run: |
           echo 'FROM alpine' > Dockerfile
-          echo 'RUN echo x > file1.txt' >> Dockerfile
+          echo 'RUN echo x > file01.txt' >> Dockerfile
+          echo 'RUN echo x > file02.txt' >> Dockerfile
+          echo 'RUN echo x > file03.txt' >> Dockerfile
+          echo 'RUN echo x > file04.txt' >> Dockerfile
+          echo 'RUN echo x > file05.txt' >> Dockerfile
+          echo 'RUN echo x > file06.txt' >> Dockerfile
+          echo 'RUN echo x > file07.txt' >> Dockerfile
+          echo 'RUN echo x > file08.txt' >> Dockerfile
+          echo 'RUN echo x > file09.txt' >> Dockerfile
+          echo 'RUN echo x > file10.txt' >> Dockerfile
+          echo 'RUN echo x > file11.txt' >> Dockerfile
+          echo 'RUN echo x > file12.txt' >> Dockerfile
+          echo 'RUN echo x > file13.txt' >> Dockerfile
+          echo 'RUN echo x > file14.txt' >> Dockerfile
+          echo 'RUN echo x > file15.txt' >> Dockerfile
+          echo 'RUN echo x > file16.txt' >> Dockerfile
+          echo 'RUN echo x > file17.txt' >> Dockerfile
+          echo 'RUN echo x > file18.txt' >> Dockerfile
+          echo 'RUN echo x > file19.txt' >> Dockerfile
+          echo 'RUN echo x > file20.txt' >> Dockerfile
+          echo 'RUN echo x > file21.txt' >> Dockerfile
+          echo 'RUN echo x > file22.txt' >> Dockerfile
+          echo 'RUN echo x > file23.txt' >> Dockerfile
+          echo 'RUN echo x > file24.txt' >> Dockerfile
+          echo 'RUN echo x > file25.txt' >> Dockerfile
+          echo 'RUN echo x > file26.txt' >> Dockerfile
+          echo 'RUN echo x > file27.txt' >> Dockerfile
+          echo 'RUN echo x > file28.txt' >> Dockerfile
+          echo 'RUN echo x > file29.txt' >> Dockerfile
+          echo 'RUN echo x > file30.txt' >> Dockerfile
+          echo 'RUN echo x > file31.txt' >> Dockerfile
+          echo 'RUN echo x > file32.txt' >> Dockerfile
           echo 'ENTRYPOINT ["echo", "Hello from ${{ github.repository }}!"]' >> Dockerfile
           echo 'LABEL org.opencontainers.image.description "This image was built from commit ${{ github.sha }}"' >> Dockerfile
 
