@@ -51,6 +51,16 @@ jobs:
           echo 'RUN echo x > file30.txt' >> Dockerfile
           echo 'RUN echo x > file31.txt' >> Dockerfile
           echo 'RUN echo x > file32.txt' >> Dockerfile
+          echo 'RUN echo x > file33.txt' >> Dockerfile
+          echo 'RUN echo x > file34.txt' >> Dockerfile
+          echo 'RUN echo x > file35.txt' >> Dockerfile
+          echo 'RUN echo x > file36.txt' >> Dockerfile
+          echo 'RUN echo x > file37.txt' >> Dockerfile
+          echo 'RUN echo x > file38.txt' >> Dockerfile
+          echo 'RUN echo x > file39.txt' >> Dockerfile
+          echo 'RUN echo x > file40.txt' >> Dockerfile
+          echo 'RUN echo x > file41.txt' >> Dockerfile
+          echo 'RUN echo x > file42.txt' >> Dockerfile
           echo 'ENTRYPOINT ["echo", "Hello from ${{ github.repository }}!"]' >> Dockerfile
           echo 'LABEL org.opencontainers.image.description "This image was built from commit ${{ github.sha }}"' >> Dockerfile
 
